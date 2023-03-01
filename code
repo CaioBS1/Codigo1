@@ -1,0 +1,5 @@
+hora =input('digite o valor da hora atual')
+minutos =input('digite o valor dos minutos atuais')
+minutos =float(minutos)/60
+horas_totais = int(hora) + float(minutos)
+print(horas_totais)
